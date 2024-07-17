@@ -20,9 +20,10 @@ class login : AppCompatActivity() {
             val intent = Intent(this, signup::class.java)
             startActivity(intent)
         }
-        binding.button.setOnClickListener{
 
-            validateRegistration()
+        binding.btnLogin.setOnClickListener{
+            val intent =Intent(this,trending::class.java)
+            startActivity(intent)
         }
 
 
@@ -45,13 +46,17 @@ class login : AppCompatActivity() {
             binding.tvpassassword.error = "user name is required"
 
         }
+        binding.btnLogin.setOnClickListener{
+            val intent=Intent(this,trending::class.java)
+            startActivity(intent)
+        }
 
     }
     fun clearErrors() {
         binding.tvuser.error = null
         binding.tvpassassword.error = null
 
-
     }
+
 
 }
