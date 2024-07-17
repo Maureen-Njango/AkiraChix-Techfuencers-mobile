@@ -48,8 +48,8 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tvname"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="364dp"
+            android:layout_height="47dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -61,8 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="full name"
-                android:inputType="textCapWords"
-                />
+                android:inputType="textCapWords" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -86,7 +85,7 @@
             android:text="User Name"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.039"
+            app:layout_constraintHorizontal_bias="0.037"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvname" />
 
@@ -105,8 +104,8 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tvusername"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="364dp"
+            android:layout_height="47dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -118,14 +117,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="user name"
-                android:inputType="textCapWords"
-                />
+                android:inputType="textCapWords" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilemail"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="364dp"
+            android:layout_height="47dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -137,8 +135,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="email"
-                android:inputType="textEmailAddress"
-                />
+                android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -155,23 +152,21 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tvpass"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="364dp"
+            android:layout_height="47dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:passwordToggleEnabled="true"
-            >
+            app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/tilpass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="password"
-                android:inputType="textPassword"
-                />
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -188,23 +183,21 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tillocation"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="364dp"
+            android:layout_height="47dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvlocation"
-            app:passwordToggleEnabled="true"
-            >
+            app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/tilconfir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="confirm password"
-                android:inputType="textPassword"
-                />
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
@@ -234,9 +227,9 @@
             android:id="@+id/realimage"
             android:layout_width="108dp"
             android:layout_height="85dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="72dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.035"
+            app:layout_constraintHorizontal_bias="0.016"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/real" />
