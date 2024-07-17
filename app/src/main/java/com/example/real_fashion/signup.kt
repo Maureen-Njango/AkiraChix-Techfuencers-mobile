@@ -25,6 +25,10 @@ class signup : AppCompatActivity() {
 
 
         }
+        binding.btsignuptwo.setOnClickListener{
+            val intent =Intent(this,trending::class.java)
+            startActivity(intent)
+        }
     }
     fun validateRegistration() {
         clearErrors()
@@ -76,6 +80,5 @@ class signup : AppCompatActivity() {
         binding.tvlocation.error = null
 
     }
-
 
 }
