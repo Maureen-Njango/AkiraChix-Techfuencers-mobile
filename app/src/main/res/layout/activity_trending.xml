@@ -148,4 +148,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSeven" />
 
+    <Button
+        android:id="@+id/btnWomen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:text="View"
+        app:layout_constraintEnd_toStartOf="@+id/ivThree"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFive" />
+
+    <Button
+        android:id="@+id/btnMen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="21dp"
+        android:text="View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivThree"
+        app:layout_constraintTop_toBottomOf="@+id/tvSix" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
